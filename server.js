@@ -15,6 +15,8 @@ const server = http.createServer(function (req, res) {
   });
 });
 
+console.log(server.prototype);
+
 server.listen(port, function (error) {
   if (error) {
     console.log("Something went wrong", error);

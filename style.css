@@ -11,10 +11,12 @@ body {
   font-family: "Gotham";
 }
 
-.danebenr {
+.container {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.zentriert {
-  align-items: center;
+.rechtsbündig {
+  text-align: end;
 }

@@ -19,6 +19,10 @@ app.get("/homeoffice", (req, res) => {
   res.render("homeoffice.ejs");
 });
 
+app.get("/heldendesallatgs", (req, res) => {
+  res.render("heldendesalltags.ejs");
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });

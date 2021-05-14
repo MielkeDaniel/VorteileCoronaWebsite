@@ -11,6 +11,10 @@ body {
   font-family: "Gotham";
 }
 
+section {
+  scroll-margin-top: 56px;
+}
+
 .container {
   display: flex;
   justify-content: space-around;

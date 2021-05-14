@@ -19,8 +19,8 @@ app.get("/homeoffice", (req, res) => {
   res.render("homeoffice.ejs");
 });
 
-app.get("/heldendesallatgs", (req, res) => {
-  res.render("heldendesalltags.ejs");
+app.get("/heldalltag", (req, res) => {
+  res.render("heldalltag.ejs");
 });
 
 app.listen(port, () => {

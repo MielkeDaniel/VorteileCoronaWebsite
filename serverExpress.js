@@ -7,12 +7,12 @@ const port = 3000;
 app.set("view engine", "ejs");
 app.use("/assets", express.static("assets"));
 
-app.get("/klima", (req, res) => {
-  res.render("klima.ejs");
-});
-
 app.get("/", (req, res) => {
   res.redirect("/homeoffice");
+});
+
+app.get("/klima", (req, res) => {
+  res.render("klima.ejs");
 });
 
 app.get("/homeoffice", (req, res) => {

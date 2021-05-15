@@ -16,55 +16,25 @@
 
     <%- include('navbar'); %>
 
-        <section class="fade-in" id="wertschätzung">
-            <div class="container">
-                <img class="m-4 col-sm-5 img-thumbnail from-left slide-in" src=" /assets/freunde.jpg" alt="ärzte">
-                <div class="my-1 from-right slide-in">
-                    <h2 class="my-1">Wertschätzung</h2>
-                    <p>
-                        Artikel
-                    </p>
-                </div>
-            </div>
-        </section>
+        <%- include('sectionTemplate', {imagecolumsize: 6 , id: "wertschätzung" , title: "Wertschätzung" , isright:
+            false , imgtitle: "freunde" , article: `Artikel`}); %>
 
-        <section class="fade-in" style="background-color: rgb(80, 80, 80)" id="familie">
-            <div class="container">
-                <div class="my-5 from-left slide-in text-white">
-                    <h2>Familie</h2>
-                    <p> Artikel
+            <%- include('sectionTemplate', {imagecolumsize: 6 , id: "familie" , title: "Familie" , isright: true ,
+                imgtitle: "familie" , article: `Artikel`}); %>
 
-                    <p>
+                <%- include('sectionTemplate', {imagecolumsize: 6 , id: "natur" , title: "Natur" , isright: false ,
+                    imgtitle: "natur" , article: `Artikel`}); %>
 
-                    </p>
-                </div>
-                <img class="my-5 img-thumbnail col-sm-6 rechtsbündig from-right slide-in" src="/assets/familie.jpg"
-                    alt="pflegekräfte">
-            </div>
-        </section>
+                    <!-- Option 1: Bootstrap Bundle with Popper -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+                        crossorigin="anonymous"></script>
 
-        <section class="fade-in" id="natur">
-            <div class="container">
-                <img class="m-5 col-sm-6 img-thumbnail from-left slide-in" src="/assets/natur.jpg" alt="verkäufer">
-                <div class="my-5 slide-in from-right">
-                    <h2 class="my-1">Natur</h2>
-                    <p>
-                        Artikel
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-            crossorigin="anonymous"></script>
-
-        <script src="/assets/observers.js"></script>
+                    <script src="/assets/observers.js"></script>
 
 
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <!--
+                    <!-- Option 2: Separate Popper and Bootstrap JS -->
+                    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
     -->

@@ -15,12 +15,6 @@ section {
   scroll-margin-top: 56px;
 }
 
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .rechtsbündig {
   text-align: end;
 }

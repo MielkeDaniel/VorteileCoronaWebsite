@@ -15,12 +15,12 @@ app.get("/klima", (req, res) => {
   res.render("klima.ejs");
 });
 
-app.get("/homeoffice", (req, res) => {
-  res.render("homeoffice.ejs");
-});
-
 app.get("/heldendesallatgs", (req, res) => {
   res.render("heldendesalltags.ejs");
+});
+
+app.get("/homeoffice", (req, res) => {
+  res.render("homeoffice.ejs");
 });
 
 app.listen(port, () => {

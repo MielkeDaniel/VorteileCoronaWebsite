@@ -15,8 +15,24 @@ app.get("/klima", (req, res) => {
   res.render("klima.ejs");
 });
 
-app.get("/heldendesallatgs", (req, res) => {
+app.get("/homeoffice", (req, res) => {
+  res.render("homeoffice.ejs");
+});
+
+app.get("/heldendesalltags", (req, res) => {
   res.render("heldendesalltags.ejs");
+});
+
+app.get("/zeit", (req, res) => {
+  res.render("zeit.ejs");
+});
+
+app.get("/bildung", (req, res) => {
+  res.render("bildung.ejs");
+});
+
+app.get("/zusammenhalt", (req, res) => {
+  res.render("zusammenhalt.ejs");
 });
 
 app.get("/homeoffice", (req, res) => {

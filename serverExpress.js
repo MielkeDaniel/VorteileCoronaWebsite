@@ -19,10 +19,6 @@ app.get("/homeoffice", (req, res) => {
   res.render("homeoffice.ejs");
 });
 
-app.get("/heldendesalltags", (req, res) => {
-  res.render("heldendesalltags.ejs");
-});
-
 app.get("/zeit", (req, res) => {
   res.render("zeit.ejs");
 });
